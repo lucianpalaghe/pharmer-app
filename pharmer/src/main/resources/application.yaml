@@ -1,0 +1,17 @@
+quarkus:
+  http:
+    port: 8081
+    cors: true
+  hibernate-orm:
+    database:
+      generation: drop-and-create
+    log:
+      sql: true
+  datasource:
+    url: jdbc:h2:file:./data/pharmer
+    driver: org.h2.Driver
+    username: sa
+    password:
+whatsapp:
+  accountSID: ACf8df1a307ef4127d371a6bf469fe3814
+  authToken: 957b31a8d4b2cfd116d119011151098c
